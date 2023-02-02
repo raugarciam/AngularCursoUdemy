@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "bases": {
+=======
+    "gifsApp": {
+>>>>>>> 4750de3 (initial commit)
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/bases",
+=======
+            "outputPath": "dist/gifs-app",
+>>>>>>> 4750de3 (initial commit)
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +68,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "browserTarget": "bases:build:production"
             },
             "development": {
               "browserTarget": "bases:build:development"
+=======
+              "browserTarget": "gifsApp:build:production"
+            },
+            "development": {
+              "browserTarget": "gifsApp:build:development"
+>>>>>>> 4750de3 (initial commit)
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +86,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "bases:build"
+=======
+            "browserTarget": "gifsApp:build"
+>>>>>>> 4750de3 (initial commit)
           }
         },
         "test": {
@@ -94,8 +113,11 @@
         }
       }
     }
+<<<<<<< HEAD
   },
   "cli": {
     "analytics": false
+=======
+>>>>>>> 4750de3 (initial commit)
   }
 }

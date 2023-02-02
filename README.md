@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Bases
+=======
+# GifsApp
+>>>>>>> 4750de3 (initial commit)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
 

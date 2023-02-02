@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "bases",
+=======
+  "name": "gifs-app",
+>>>>>>> 4750de3 (initial commit)
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

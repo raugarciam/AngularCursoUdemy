@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -12,5 +13,21 @@ import { DbzModule } from './dbz/dbz.module';
   imports: [BrowserModule, HeroesModule, ContadorModule, DbzModule],
   providers: [],
   bootstrap: [AppComponent],
+=======
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+>>>>>>> 4750de3 (initial commit)
 })
 export class AppModule { }
